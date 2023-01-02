@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./styles/css/styles.css" />
+		<title>Frontend Mentor | Fylo data storage component</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="images">
+				<img src="./images/logo.svg" alt="Fylo logo" class="images__logo" />
+				<div class="images__icons">
+					<button class="images__icons__document">
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g id="icon-document">
+								<path
+									id="Vector"
+									d="M14.3985 0.00950623H4.80653C4.49213 0.00950289 4.18084 0.0716071 3.89051 0.192252C3.60019 0.312898 3.33656 0.489707 3.11476 0.712527C2.89296 0.935347 2.71737 1.19979 2.59806 1.49066C2.47875 1.78154 2.41808 2.09312 2.41953 2.40751L2.40753 21.5925C2.40608 21.9069 2.46675 22.2185 2.58606 22.5093C2.70537 22.8002 2.88096 23.0647 3.10276 23.2875C3.32456 23.5103 3.58819 23.6871 3.87851 23.8078C4.16884 23.9284 4.48013 23.9905 4.79453 23.9905H19.1945C19.5095 23.9906 19.8214 23.9287 20.1124 23.8082C20.4034 23.6878 20.6678 23.5111 20.8905 23.2884C21.1132 23.0657 21.2898 22.8013 21.4103 22.5103C21.5307 22.2193 21.5927 21.9075 21.5925 21.5925V7.20351L14.3985 0.00950623ZM13.2005 8.40251V1.80951L19.7955 8.40351H13.2005V8.40251Z"
+								/>
+							</g>
+						</svg>
+					</button>
+					<button class="images__icons__folder">
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g id="icon-folder">
+								<path
+									id="Vector"
+									d="M21.6 4.79999H12L9.6 2.39999H2.4C2.08547 2.40025 1.77408 2.4626 1.48369 2.58345C1.1933 2.7043 0.929615 2.88128 0.707764 3.10425C0.485912 3.32721 0.310254 3.59178 0.19086 3.88277C0.0714654 4.17376 0.0106838 4.48546 0.012 4.79999L0 19.2C0 19.8365 0.252856 20.447 0.702944 20.8971C1.15303 21.3471 1.76348 21.6 2.4 21.6H21.6C22.2365 21.6 22.847 21.3471 23.2971 20.8971C23.7471 20.447 24 19.8365 24 19.2V7.19999C24 6.56347 23.7471 5.95302 23.2971 5.50294C22.847 5.05285 22.2365 4.79999 21.6 4.79999V4.79999Z"
+								/>
+							</g>
+						</svg>
+					</button>
+					<button class="images__icons__upload">
+						<svg
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g id="icon-upload">
+								<path
+									id="Vector"
+									d="M19.4 10C18.7 6.6 15.7 4 12 4C9.1 4 6.6 5.6 5.4 8C2.3 8.4 0 10.9 0 14C0 17.3 2.7 20 6 20H19C21.8 20 24 17.8 24 15C24 12.4 21.9 10.2 19.4 10ZM14 13V17H10V13H7L12 8L17 13H14Z"
+								/>
+							</g>
+						</svg>
+					</button>
+				</div>
+			</div>
+			<div class="storage">
+				<div class="storage__message">185 <span>GB LEFT</span></div>
+				<div class="storage__box">
+					<p>You’ve used <span>815 GB</span> of your storage</p>
+					<div class="storage__box__progress">
+						<div class="storage__box__progress__bar">
+							<div class="storage__box__progress__bar__inner">
+								<div class="circle"></div>
+							</div>
+						</div>
+						<div class="storage__box__progress__text">
+							<span>0 GB</span>
+							<span>1000 GB</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

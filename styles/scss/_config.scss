@@ -1,0 +1,20 @@
+$bar-gradient: linear-gradient(90deg, rgba(255, 163, 153, 1) 20%, rgba(255, 77, 151, 1) 80%);
+
+$blue-pale: hsl(243, 100%, 93%);
+$blue-bright: hsl(251, 100%, 87%);
+$blue-gray: hsl(229, 7%, 55%);
+$blue-dark: #1d2c67;
+$blue-violet: #36336d;
+$blue-darker: #0c122c;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+$font: "Raleway";
+
+$button-size: 2rem;
+$bar-size: 31rem;
+
+$msg-height: calc(3rem + 4vw);
+$msg-width: calc($msg-height * 1.84375);
+$msg-font-size: max(2.375rem, calc(1.5rem + 1.35vw));
+$msg-padding-size1: calc(1rem + .75vw);
+$msg-padding-size2: calc(1rem + .75vw);
