@@ -11,6 +11,7 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Useful things](#Useful things)
   - [Continued development](#continued-development)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
@@ -43,6 +44,21 @@ Users should be able to:
 ### What I learned
 
 Positioning the message element was a bit of a struggle and I learned a lot how to use negative values with margins.
+
+### Useful things
+
+**For the responsive design, I used expresssions like:**
+- `calc([fixed value] + [small responsive value])`
+
+Example: `calc(7rem, .5vw)`
+
+It's very useful for elements like text that need only slight changes in size, so this way you don't need to bother with media queries, keeping the code cleaner
+
+- `max/min/clamp([responsive value],  [fixed value limit])`
+
+Example: `min/max(30vw, 20rem)` 
+
+It stops at 20rem if 30vw is bigger/smaller than that and acts as a max/min-width for the element. Useful to keep the code clean and avoid extra media queries
 
 ### Continued development
 
